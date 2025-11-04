@@ -25,7 +25,7 @@ public class KLTN<T extends Student, V> implements Comparable<KLTN<T, V>> {
 
     @Override
     public int compareTo(KLTN<T, V> other) {
-        return this.student.getFullName().compareToIgnoreCase(other.student.getFullName());
+        return this.topicName.compareToIgnoreCase(other.topicName);
     }
 
     @Override
